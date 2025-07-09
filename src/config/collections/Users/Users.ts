@@ -20,7 +20,6 @@ export const Users: CollectionConfig = {
       required: true,
       unique: true,
     },
-
     {
       name: "roles",
       type: "select",
