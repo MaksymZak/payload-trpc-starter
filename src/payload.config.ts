@@ -57,7 +57,7 @@ export default buildConfig({
     // storage-adapter-placeholder
   ],
   email: nodemailerAdapter({
-    defaultFromAddress: "zak@email.com",
+    defaultFromAddress: "zaksumy1989@email.com",
     defaultFromName: "From Payload TRPC Starter",
     transportOptions: {
       host: process.env.SMTP_HOST,
